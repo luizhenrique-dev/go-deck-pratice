@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
-
-// Iterando em na estrutura de dados: Slices
 func main() {
-	cards := newDeck()
-	fmt.Println(cards.toString())
+	// cards := newDeck()
+	// cards.saveToFile("my_cards")
+	// cards := newDeckFromFile("my")
+	cards := newDeckFromFile("my_cards")
+	cards.print()
 }
